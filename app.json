@@ -1,0 +1,43 @@
+{
+  "name": "xydghty",
+  "description": "Deploy xydghty",
+  "keywords": ["V2ray", "xydghty"],
+  "env": {
+    "ProxySite": {
+      "description": "反代一个网站，例如：mirror.umd.edu，不填写表示使用本地静态网页文件。",
+      "value": "mirror.umd.edu"
+    },
+
+    "Vless_UUID": {
+      "description": "Vless uuid（http://www.uuid.online/在线生成）",
+      "value": "bdb2b03d-a3f4-463b-b0a4-add550cfaf7b"
+    },
+
+    "Vless_Path": {
+      "description": "Path路径，",
+      "value": "/okjuph"
+    },
+    "Vmess_UUID": {
+      "description": "Vmess uuid（http://www.uuid.online/在线生成）",
+      "value": "bdb2b03d-a3f4-463b-b0a4-add550cfaf7b"
+    },
+
+    "Vmess_Path": {
+      "description": "Path路径，",
+      "value": "/ojguy"
+    },
+    
+    "Share_Path": {
+      "description": "Share path, 查看订阅链接及二维码",
+      "value": "/beshnm9"
+    },
+
+    "VER": {
+       "description": "Xray版本，默认latest安装最新版本，可以去https://github.com/XTLS/Xray-core/releases选择版本 （例如：1.2.2)",
+       "value": "latest"
+     }
+  },
+  "website": "https://github.com/poiujk758/Xray",
+  "repository": "https://github.com/poiujk758/Xray",
+  "stack": "container"
+ }
